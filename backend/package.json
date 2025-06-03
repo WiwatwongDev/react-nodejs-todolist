@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "TodoList Backend API with Fastify",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "start": "fastify start -l info -p 3001 app.js",
+    "dev": "fastify start -w -l info -p 3001 -P app.js"
+  },
+  "keywords": ["todolist", "api", "fastify", "nodejs"],
+  "author": "TodoList Developer",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^5.0.0",
+    "fastify-plugin": "^5.0.0",
+    "@fastify/autoload": "^6.0.0",
+    "@fastify/sensible": "^6.0.0",
+    "@fastify/cors": "^10.0.0",
+    "@fastify/formbody": "^8.0.0",
+    "fastify-cli": "^7.4.0"
+  },
+  "devDependencies": {}
+}
