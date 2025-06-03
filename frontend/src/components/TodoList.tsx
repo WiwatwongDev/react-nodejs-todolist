@@ -1,7 +1,7 @@
 // components/TodoList.tsx
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import TodoForm from './TodoForm'
 import TodoItem from './TodoItem'
 import { Todo, TodoFormData } from '@/types/todo'
